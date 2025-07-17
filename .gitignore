@@ -359,3 +359,25 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,venv,windows,macos
+
+# uv 가상환경 관련
+.venv/
+.uv/
+uv.cache/
+
+
+# Python 기본
+*.pyc
+
+
+# 환경 변수 파일
+
+
+.env.*
+
+
+# IDE
+.vscode/
+.idea/
+
+
