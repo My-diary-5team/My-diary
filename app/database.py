@@ -24,7 +24,7 @@ def init_db(app: FastAPI):
     register_tortoise(
         app,
         db_url=DATABASE_URL,
-        modules={"models": ["app.models"]},
+        modules={"models": ["app.models.user"]},
         generate_schemas=False,  # aerich를 사용하니까 False로
         add_exception_handlers=True,
     )
